@@ -53,6 +53,7 @@ hr {
 .list-no-bullet{
     list-style-type: none;
     margin: 0;
+    padding-inline-start: 0;
 }
 
 .list-item-inline{
@@ -215,5 +216,10 @@ section p{
 
     .blog-img {
         width: 10rem;
+    }
+
+    .nav-brand {
+        font-weight: bold;
+        font-size: 1rem;
     }
 }
