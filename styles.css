@@ -3,6 +3,7 @@
 :root {
     --primary-color: #B4F926;
 }
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #00032D;
@@ -10,16 +11,16 @@ body {
     margin: 0px;
 }
 
-hr { 
+hr {
     margin: 2rem 0;
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-centered{
+.container-centered {
     max-width: 600px;
     margin: auto;
 }
@@ -40,6 +41,7 @@ hr {
 .secondary-link i {
     margin-right: 0.3rem;
 }
+
 .margin-md {
     margin: 2rem;
 }
@@ -50,15 +52,16 @@ hr {
     border: 2px solid var(--primary-color);
 }
 
-.list-no-bullet{
+.list-no-bullet {
     list-style-type: none;
     margin: 0;
     padding-inline-start: 0;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
-    padding: 0 0.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
 }
 
 .navigation {
@@ -72,7 +75,7 @@ hr {
 
 .nav-brand {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .navigation .link {
@@ -87,10 +90,10 @@ hr {
 }
 
 .navigation .active {
-    font-weight: bold;
+    border-bottom: 2px solid #00032D;
 }
 
-.hero { 
+.hero {
     padding: 2rem;
 }
 
@@ -130,16 +133,15 @@ section h1 {
     border-top-left-radius: 1rem;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0;
 }
 
-.footer .link{
+.footer .link {
     color: #00032D;
-
 }
 
-section p{
+section p {
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -151,13 +153,13 @@ section p{
     text-decoration: underline;
 }
 
-.project-links { 
+.project-links {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
 }
 
-.blog-links {
+.-links {
     display: flex;
     justify-content: flex-end;
 }
@@ -173,10 +175,12 @@ section p{
 .blog {
     width: 60%;
     text-align: left;
-    margin-left: 20%;;
+    margin-left: 20%;
+    ;
 }
 
-.blog h1, h2 {
+.blog h1,
+h2 {
     color: var(--primary-color);
 }
 
