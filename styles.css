@@ -168,37 +168,9 @@ section p {
     margin-bottom: 5rem;
 }
 
-.blog-img {
-    width: 15rem;
+.blog-links {
+    margin: 2rem 0 1rem 0;
 }
-
-.blog {
-    width: 60%;
-    text-align: left;
-    margin-left: 20%;
-    ;
-}
-
-.blog h1,
-h2 {
-    color: var(--primary-color);
-}
-
-.blog p {
-    text-align: left;
-}
-
-.blog-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.blog-title {
-    text-align: left;
-    font-size: 3rem;
-    margin: 0;
-}
-
 
 @media screen and (max-width: 768px) {
     body {
