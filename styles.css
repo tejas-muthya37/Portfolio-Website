@@ -71,6 +71,7 @@ hr {
     border-bottom-left-radius: 1rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .nav-brand {
@@ -197,5 +198,13 @@ section p {
     .nav-brand {
         font-weight: bold;
         font-size: 1rem;
+        margin: auto 0;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .navigation {
+        justify-content: center;
+        gap: 1rem;
     }
 }
